@@ -38,7 +38,7 @@ Then edit the `terraform.tfvars` file to define the following keys:
 The module being used in this code is available at https://github.com/vksuktha/instana-terraform-scripts and example usage is as follows:
 ```
 module "instana_instance" {
-  source = "github.com/vksuktha/instana-terraform-scripts?ref=v1.0.0"
+  source = "github.com/vksuktha/instana-terraform-scripts?ref=v1.0.1"
 
   name                 = var.resource_prefix
   resource_group_name  = var.resource_group_name
