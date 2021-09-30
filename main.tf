@@ -3,7 +3,7 @@
 # Documentation: https://cloud.ibm.com/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-vpc-gen2-resources
 
 module "instana_instance" {
-  source = "github.com/diimallya/instana-terraform-scripts?ref=v1.0.4"
+  source = "github.com/vksuktha/instana-terraform-scripts?ref=v1.0.0"
 
   name                 = var.resource_prefix
   resource_group_name  = var.resource_group_name
