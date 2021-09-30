@@ -1,0 +1,11 @@
+.envrc
+.terraform/
+ssh-keys
+ssh-*
+.terraform.lock.hcl
+.terraform_show.json
+*.tfstate.*
+.DS_Store
+terraform.tfstate.*
+terraform.tfstate
+terraform.tfvars
