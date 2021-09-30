@@ -3,7 +3,7 @@
 The script in this repository creates the VM (Virtual Server Instance) required for Instana installation in the IBM Cloud in given VPC and subnet and installs Instana in it.
 ## Clone the repository
 ```
-git clone https://github.ibm.com/dimallya/terraform-tools-instana
+git clone https://github.com/vksuktha/terraform-tools-instana.git
 ```
 ## Generate SSH key 
 Instana VM requires an SSH Key, so run the following command to generate it:
@@ -35,10 +35,10 @@ Then edit the `terraform.tfvars` file to define the following keys:
 - ssh_instana_private_key_file
 
 ## Module details
-The module being used in this code is available at https://github.com/diimallya/instana-terraform-scripts and example usage is as follows:
+The module being used in this code is available at https://github.com/vksuktha/instana-terraform-scripts and example usage is as follows:
 ```
 module "instana_instance" {
-  source = "github.com/diimallya/instana-terraform-scripts?ref=v1.0.4"
+  source = "github.com/vksuktha/instana-terraform-scripts?ref=v1.0.0"
 
   name                 = var.resource_prefix
   resource_group_name  = var.resource_group_name

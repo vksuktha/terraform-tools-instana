@@ -15,7 +15,6 @@ variable "region" {
 variable "zone" {
   	type = string
   	description = "The IBM Cloud zone"
-  	default = "us-south-1"
 }
 
 variable "resource_prefix" {
