@@ -1,6 +1,6 @@
 # terraform-tools-instana
 
-The script in this repository creates a Resource group, VPC, Subnet, Public Gateway and VM (Virtual Server Instance) with essential security groups, required for Instana installation in the target IBM Cloud account and subnet and installs Instana in it.
+The script in this repository creates a Resource group, VPC, Subnet, Public Gateway and VM (Virtual Server Instance) with essential security groups, required for Instana installation in the target IBM Cloud account and installs Instana in it.
 
 ## Clone the repository
 ```
