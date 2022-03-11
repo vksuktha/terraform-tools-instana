@@ -3,14 +3,12 @@
 # Documentation: https://cloud.ibm.com/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-vpc-gen2-resources
 
 module "instana_instance" {
-  source = "github.com/vksuktha/instana-terraform-scripts?ref=v1.0.1"
+  source = "github.com/vksuktha/instana-terraform-scripts?ref=v1.0.2"
 
-  name                 = var.resource_prefix
-  resource_group_name  = var.resource_group_name
-  region               = var.region
+  name                 = var.name
+  RESOURCE_PREFIX      = var.RESOURCE_PREFIX
   ibmcloud_api_key     = var.ibmcloud_api_key
-  subnet_name          = var.subnet_name
-  vpc_name             = var.vpc_name
+  region               = var.region
   zone                 = var.zone
   sales_id             = var.sales_id
   agent_key            = var.agent_key
